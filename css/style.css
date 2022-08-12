@@ -1,0 +1,55 @@
+cor-1 {
+    color: #111111;
+}
+cor-2 {
+    color: #2f2f2f;
+}
+cor-3{
+    color: #f6f6f6;
+}
+
+cor-4{
+    color: #ffcb74;
+}
+
+*{
+    margin: 0 auto;
+
+
+}
+.nav-bar {
+    background-color: #111111;
+    padding: 2vh;
+    display: flex;
+    text-align: center;
+    color: #f6f6f6;
+}
+
+.link{
+    text-decoration: none;
+}
+
+
+.links{
+    flex-grow: 1;
+} 
+
+.links a {
+    padding: 0 20px;
+    color: #f6f6f6;
+}
+
+
+#inicio {
+    background-color: #2f2f2f;
+    display: flex;
+    padding: 25vh;
+}
+
+.texto-principal {
+    display: block;
+    width: 40vw;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f6f6f6;
+}
