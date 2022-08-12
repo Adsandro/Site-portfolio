@@ -14,21 +14,20 @@ cor-4{
 
 *{
     margin: 0 auto;
-
-
 }
 .nav-bar {
     background-color: #111111;
     padding: 2vh;
     display: flex;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #f6f6f6;
+    font-size: 2vh;
 }
 
 .link{
     text-decoration: none;
 }
-
 
 .links{
     flex-grow: 1;
@@ -42,8 +41,13 @@ cor-4{
 
 #inicio {
     background-color: #2f2f2f;
-    display: flex;
-    padding: 25vh;
+    display: block;
+    padding: 7vh;
+    background-image: url();
+}
+
+.titulo-principal {
+    padding-bottom: 2vh;
 }
 
 .texto-principal {
@@ -52,4 +56,54 @@ cor-4{
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #f6f6f6;
+    text-align: center;
+    padding: 10vh 0;
+}
+
+.foto {
+    text-align: center;;
+}
+
+
+.tamanho-imagem {
+    padding: 20vh 3vh;
+    width: 16vw;
+}
+
+.dados-footer {
+    display: block;
+    padding: 5vh 50vh;
+    text-align: center;
+    background-color: #2f2f2f;
+    background-image: url(https://media3.giphy.com/media/l1Kdb9KNXjm6wpIbK/giphy.gif?cid=ecf05e474644urxo85x0zriq5utkoxrx0ljfdit8muu3k8ls&rid=giphy.gif&ct=g);
+    color: black;
+}
+
+.contatos-footer {
+    display: inline-block;
+    justify-content: center;
+    margin: 0 28px;
+    text-decoration: none;
+    padding: 1vh;
+    
+}
+
+.box-footer{
+    padding: 10px;
+}
+
+.desenvolvedor-footer {
+    text-align: center;
+    padding-bottom: 3vh;
+    font-size: 70%;
+    
+}
+
+.info {
+    text-decoration: none;
+    color: #111111;
+    font-size: 130%;
+    justify-content: center;
+    text-align:left;
+    
 }
