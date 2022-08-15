@@ -38,22 +38,22 @@ cor-4{
     color: #f6f6f6;
 }
 
-
-#inicio {
+.inicio {
     background-color: #2f2f2f;
     display: block;
     padding: 7vh;
-    background-image: url();
+    background-image: url(https://media0.giphy.com/media/YpMYUdwJvFkkd5lL1q/giphy.gif?cid=ecf05e47dkqzn6vg8qj8u9mzfjp5y1cz74faf9nb9bk1rwzf&rid=giphy.gif&ct=g);
 }
 
 .titulo-principal {
     padding-bottom: 2vh;
+    font-size: 4.5vh;
 }
 
 .texto-principal {
     display: block;
     width: 40vw;
-    font-size: 15px;
+    font-size: 2.5vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #f6f6f6;
     text-align: center;
@@ -61,7 +61,28 @@ cor-4{
 }
 
 .foto {
-    text-align: center;;
+    text-align: center;
+}
+
+.foto img {
+    border-radius: 50% !important;
+    width: 50vh;
+    height: 50vh;
+    border:#f6f6f6 solid 0.5px;
+}
+
+#projetos {
+    background-color: #f6f6f6;
+}
+
+.texto-secundario {
+    display: block;
+    width: 40vw;
+    font-size: 2.5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#111111;
+    text-align: center;
+    padding: 10vh 0;
 }
 
 
@@ -85,7 +106,6 @@ cor-4{
     margin: 0 28px;
     text-decoration: none;
     padding: 1vh;
-    
 }
 
 .box-footer{
@@ -96,7 +116,6 @@ cor-4{
     text-align: center;
     padding-bottom: 3vh;
     font-size: 70%;
-    
 }
 
 .info {
@@ -105,5 +124,4 @@ cor-4{
     font-size: 130%;
     justify-content: center;
     text-align:left;
-    
 }
