@@ -13,16 +13,18 @@ cor-4{
 }
 
 *{
-    margin: 0 auto;
+    margin: 0 ;
 }
 .nav-bar {
     background-color: #111111;
-    padding: 2vh;
+    padding: 10px;
     display: flex;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #f6f6f6;
-    font-size: 2vh;
+    font-size: 12px;
+    position: fixed;
+    width: 100vw;
 }
 
 .link{
@@ -40,9 +42,14 @@ cor-4{
 
 .inicio {
     background-color: #2f2f2f;
-    display: block;
-    padding: 7vh;
+    padding: 70px 230px;
     background-image: url(https://media0.giphy.com/media/YpMYUdwJvFkkd5lL1q/giphy.gif?cid=ecf05e47dkqzn6vg8qj8u9mzfjp5y1cz74faf9nb9bk1rwzf&rid=giphy.gif&ct=g);
+}
+
+.principal {
+    padding: 130px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .titulo-principal {
@@ -52,47 +59,58 @@ cor-4{
 
 .texto-principal {
     display: block;
-    width: 40vw;
+    width: 600px;
     font-size: 2.5vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #f6f6f6;
-    text-align: center;
-    padding: 10vh 0;
-}
-
-.foto {
-    text-align: center;
+    padding: 50px 0;
 }
 
 .foto img {
-    border-radius: 50% !important;
-    width: 50vh;
-    height: 50vh;
-    border:#f6f6f6 solid 0.5px;
+    width: 40vh;
+    height: 40vh;
+    border-left:#f6f6f6 solid 5px;
+    margin-left: 45px;
 }
 
 #projetos {
     background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px;
+    align-items: center; 
+}
+
+.titulo-secundario {
+    padding-bottom: 5px;
 }
 
 .texto-secundario {
-    display: block;
-    width: 40vw;
+    width: 600px;
     font-size: 2.5vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:#111111;
     text-align: center;
-    padding: 10vh 0;
+    color:#2f2f2f;
+    
+    
+    padding: 50px 0;
 }
 
-
-.tamanho-imagem {
-    padding: 20vh 3vh;
-    width: 16vw;
+.img-projeto{
+    height: 250px;
+    padding: 0 10px;
+}
+.meus-stickers {
+    padding: 40px 0 10px 0;
+}
+.stickers {
+    height: 80px;
 }
 
 .dados-footer {
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding: 5vh 50vh;
     text-align: center;
     background-color: #2f2f2f;
@@ -101,7 +119,7 @@ cor-4{
 }
 
 .contatos-footer {
-    display: inline-block;
+    display: inline;
     justify-content: center;
     margin: 0 28px;
     text-decoration: none;
@@ -110,7 +128,11 @@ cor-4{
 
 .box-footer{
     padding: 10px;
+    text-align: center;
+    justify-content: center;
 }
+
+
 
 .desenvolvedor-footer {
     text-align: center;
