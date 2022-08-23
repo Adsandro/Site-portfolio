@@ -1,22 +1,15 @@
-cor-1 {
-    color: #111111;
-}
-cor-2 {
-    color: #2f2f2f;
-}
-cor-3{
-    color: #f6f6f6;
-}
-
-cor-4{
-    color: #ffcb74;
+:root{
+    --1-color:#111111;
+    --2-color:#f6f6f6;
+    --3-color:#2f2f2f;
+    --4-color:#ffcb74; 
 }
 
 *{
     margin: 0 ;
 }
 .nav-bar {
-    background-color: #111111;
+    background-color: var(--1-color);
     padding: 10px;
     display: flex;
     text-align: center;
