@@ -3,7 +3,7 @@
     --2-color:#f6f6f6;
     --3-color:#2f2f2f;
     --4-color:#ffcb74; 
-    --font-family:Verdana, Geneva, Tahoma, sans-serif;
+    --font-family:'Source Sans Pro', sans-serif;;
 }
 
 *{
@@ -18,7 +18,7 @@
     text-align: center;
     font-family: var(--font-family);
     color: #f6f6f6;
-    font-size: 12px;
+    font-size: 0.8 em;
     position: fixed;
     width: 100vw;
 }
@@ -32,18 +32,18 @@
 } 
 
 .links a {
-    padding: 0 20px;
+    padding: 0 2em;
     color: var(--2-color);
 }
 
 .inicio {
     background-color: var(--3-color);
-    padding: 70px 230px;
+    padding: 8em 20em;
+    width: 100vw;
     background-image: url(https://media0.giphy.com/media/YpMYUdwJvFkkd5lL1q/giphy.gif?cid=ecf05e47dkqzn6vg8qj8u9mzfjp5y1cz74faf9nb9bk1rwzf&rid=giphy.gif&ct=g);
 }
 
 .principal {
-    padding: 130px 0;
     display: flex;
     justify-content: center;
 }
@@ -55,11 +55,16 @@
 
 .texto-principal {
     display: block;
-    width: 600px;
     font-size: 2.5vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: var(--2-color);
-    padding: 50px 0;
+    padding: 5em 0;
+}
+
+.foto{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
 }
 
 .foto img {
@@ -83,25 +88,23 @@
 }
 
 .texto-secundario {
-    width: 600px;
     font-size: 2.5vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color:var(--3-color);
-    
-    
-    padding: 50px 0;
+    padding: 50px 2em;
 }
 
 .img-projeto{
-    height: 250px;
+    height: 8em;
+    justify-content: center;
     padding: 0 10px;
 }
 .meus-stickers {
     padding: 40px 0 10px 0;
 }
 .stickers {
-    height: 80px;
+    height: 3em;
 }
 .footer{
     padding: 70px;
@@ -129,3 +132,13 @@
     justify-content: center;
 }
 
+.form-contato {
+    background-color: var(--1-color);
+    width: 100vw;
+    height: 100vh;
+    margin: 10px solid var(--2-color);
+}
+.paragrafo {
+    opacity: 100%;
+    color: var(--2-color);
+}
