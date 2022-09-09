@@ -18,7 +18,7 @@
     text-align: center;
     font-family: var(--font-family);
     color: #f6f6f6;
-    font-size: 0.8 em;
+    font-size: 0.8em;
     position: fixed;
     width: 100vw;
 }
@@ -38,8 +38,8 @@
 
 .inicio {
     background-color: var(--3-color);
-    padding: 8em 20em;
-    width: 100vw;
+    padding: 15rem 20rem;
+    width: 100%;
     background-image: url(https://media0.giphy.com/media/YpMYUdwJvFkkd5lL1q/giphy.gif?cid=ecf05e47dkqzn6vg8qj8u9mzfjp5y1cz74faf9nb9bk1rwzf&rid=giphy.gif&ct=g);
 }
 
@@ -49,13 +49,12 @@
 }
 
 .titulo-principal {
-    padding-bottom: 2vh;
-    font-size: 4.5vh;
+    padding-bottom: 2vw;
+    font-size: 2vw;
 }
 
 .texto-principal {
     display: block;
-    font-size: 2.5vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: var(--2-color);
     padding: 5em 0;
@@ -68,8 +67,7 @@
 }
 
 .foto img {
-    width: 40vh;
-    height: 40vh;
+    width: 20vw;
     border-left:var(--2-color) solid 5px;
     margin-left: 45px;
 }
@@ -79,7 +77,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 70px;
+    padding: 6rem 0rem;
     align-items: center; 
 }
 
@@ -92,13 +90,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color:var(--3-color);
-    padding: 50px 2em;
+    margin: 50px 25rem;
 }
 
 .img-projeto{
-    height: 8em;
+    height: 12em;
     justify-content: center;
-    padding: 0 10px;
 }
 .meus-stickers {
     padding: 40px 0 10px 0;
@@ -107,7 +104,7 @@
     height: 3em;
 }
 .footer{
-    padding: 70px;
+    padding: 5vw;
     background-image: url(https://media3.giphy.com/media/l1Kdb9KNXjm6wpIbK/giphy.gif?cid=ecf05e474644urxo85x0zriq5utkoxrx0ljfdit8muu3k8ls&rid=giphy.gif&ct=g);
 }
 .nav-link{
@@ -123,7 +120,7 @@
 }
 
 .nav-item{
-    padding:0 2vh;
+    padding:0 1.5vw;
     list-style-type: none;
 }
 
@@ -141,4 +138,81 @@
 .paragrafo {
     opacity: 100%;
     color: var(--2-color);
+}
+
+
+
+@media screen and (max-width: 600px){
+
+    .principal{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inicio {
+        padding: 4rem 1em;
+        align-items: center;
+    }
+
+    .titulo-principal{
+        font-size: 20px ;
+    }
+
+    .texto-principal {
+        color: var(--2-color);
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .foto > img {
+        margin: 0;
+        width: 40vw;
+    }
+
+
+
+    #projetos {
+        align-items: center;
+        padding: 0 0 3rem 0;
+    }
+
+    .texto-secundario {
+        padding: 4rem 1rem 2rem;
+        align-items: center;
+        margin: 0 0;
+        font-size: 14px;
+    }
+
+
+    .img-projeto{
+        height: 5em;
+        justify-content: center;
+    }
+    .meus-projetos {
+        position: relative;
+        padding: 0;
+
+    }
+    .meus-stickers {
+        padding: 30px 0 10px 0;
+    }
+    .stickers {
+        height: 2em;
+    }
+
+
+
+
+
+
+
+
+    .nav {
+        flex-direction: column;
+    }
+    .nav-item{
+        font-size: 14px;
+    }
+
+
 }
